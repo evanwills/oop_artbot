@@ -1,0 +1,11 @@
+IArtbotDrawingMode KEYWORD1
+ArtbotDrawingMode  KEYWORD1
+ArtbotDrawingModeDefault KEYWORD1
+
+ArtbotSystem  KEYWORD1
+
+IArtbotDriver KEYWORD1
+ArtbotDriver  KEYWORD1
+
+IArtbotUI KEYWORD1
+ArtbotUI  KEYWORD1

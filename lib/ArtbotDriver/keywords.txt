@@ -1,0 +1,13 @@
+ArtbotDriver KEYWORD1
+
+terminate KEYWORD2
+setWheelAction KEYWORD2
+setPenDepth KEYWORD2
+setPenLocation KEYWORD2
+getTravelComplete KEYWORD2
+getEdgeReached KEYWORD2
+getMaxSpeed KEYWORD2
+forwardStepLeft KEYWORD2
+backwardStepLeft KEYWORD2
+forwardStepRight KEYWORD2
+backwardStepRight KEYWORD2

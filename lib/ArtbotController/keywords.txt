@@ -1,0 +1,9 @@
+ArtbotController KEYWORD1
+
+getAvailableModes KEYWORD2
+getFieldCount KEYWORD2
+getInputField KEYWORD2
+setInputValues KEYWORD2
+getPresetValues KEYWORD2
+calculate KEYWORD2
+getDriverValue KEYWORD2

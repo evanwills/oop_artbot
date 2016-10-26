@@ -1,0 +1,7 @@
+ArtbotSystem KEYWORD1
+
+doMode KEYWORD2
+doSettings KEYWORD2
+beginDrawing KEYWORD2
+draw KEYWORD2
+checkDrawInterupt KEYWORD2

@@ -1,0 +1,11 @@
+ArtbotUI KEYWORD1
+
+setDrawingModes KEYWORD2
+renderModeSelector KEYWORD2
+getDrawingMode KEYWORD2
+setInputField KEYWORD2
+renderInputFields KEYWORD2
+setPresets KEYWORD2
+startDrawing KEYWORD2
+purgeInputFields KEYWORD2
+terminate KEYWORD2

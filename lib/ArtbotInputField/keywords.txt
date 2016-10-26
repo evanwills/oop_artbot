@@ -1,0 +1,13 @@
+ArtbotInputField KEYWORD1
+ArtbotBoolInputField KEYWORD1
+ArtbotCharInputField KEYWORD1
+ArtbotUIntInputField KEYWORD1
+ArtbotLongInputField KEYWORD1
+ArtbotULongInputField KEYWORD1
+ArtbotFloatInputField KEYWORD1
+ArtbotDoubleInputField KEYWORD1
+
+getMin KEYWORD2
+getMax KEYWORD2
+setValue KEYWORD2
+getValue KEYWORD2
