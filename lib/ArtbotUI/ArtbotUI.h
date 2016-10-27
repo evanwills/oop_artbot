@@ -24,6 +24,12 @@
 class ArtbotUI {
 	public:
 		ArtbotUI();
+
+		/**
+		 * Shows welcome screen when artbot is first started.
+		 */
+		 void welcome();
+
 		/**
 		 * takes a list of drawing modes (supplied by controller static method:
 		 * getAvailableModes()) to tell the user the drawing modes it has a
@@ -74,12 +80,22 @@ class ArtbotUI {
 		 * delete all input fields from previous controller
 		 * (free up memory)
 		 */
-		void purgeInputFields()
+		void purgeInputFields();
 
 		/**
-		 * Whether or not the terminate command has been issued.
+		 * checks to see if drawing mode has been interrupted
+		 * @return activityMode
+		 *		0 = get new drawing mode
+		 *		1 = update drawing mode config
+		 *		2 = continue drawing (no interrupt),
+		 *
+		 * (step 9 from Flow)
 		 */
-		bool terminate();
+		bool checkDrawInterupt();
+
+	protected:
+		Adafruit_SSD1306 screen;
+		char activityMode = 0;
 };
 
 #endif

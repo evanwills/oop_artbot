@@ -38,7 +38,7 @@ class ArtbotDriver {
 		 * makes all the components move as directed.
 		 * (to be run after setWheelAction() & setPenAction())
 		 */
-		void drive();
+		void draw();
 
 		/**
 		 * makes all the components stop moving.

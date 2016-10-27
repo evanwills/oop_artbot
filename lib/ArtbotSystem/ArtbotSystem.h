@@ -39,12 +39,17 @@ class ArtbotSystem {
 		ArtbotSystem( ArtbotUI ui , ArtbotDriver driver );
 
 		/**
+		 * welcome() a pass-through method for the UI
+		 */
+		void welcome();
+
+		/**
 		 * makes UI show available modes and lets user choose desired
 		 * mode.
 		 * @return TRUE if mode has been set
 		 * (steps 2, 3 & 4 from Flow)
 		 */
-		bool doMode();
+		bool doDrawingMode();
 
 
 		/**
@@ -53,7 +58,7 @@ class ArtbotSystem {
 		 * @return TRUE if user has finalised settings
 		 * (step 5 from Flow)
 		 */
-		bool doSettings();
+		bool doDrawingSettings();
 
 		/**
 		 * passes values from UI to controller
@@ -70,9 +75,11 @@ class ArtbotSystem {
 
 		/**
 		 * checks UI to see if drawing mode has been interrupted
-		 * @return	0 = continue drawing (no interrupt),
-		 *			1 = update drawing mode config
-		 *			2 = get new drawing mode
+		 * @return activityMode
+		 *		0 = get new drawing mode
+		 *		1 = update drawing mode config
+		 *		2 = continue drawing (no interrupt),
+		 *
 		 * (step 9 from Flow)
 		 */
 		char checkDrawInterupt();
@@ -82,6 +89,7 @@ class ArtbotSystem {
 		ArtbotUI _ui;
 		ArtbotController controller;
 		ArtbotDriver _driver;
+		char activityMode = 0;
 };
 
 #endif;
